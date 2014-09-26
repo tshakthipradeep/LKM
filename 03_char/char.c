@@ -6,7 +6,7 @@
 #include <linux/cdev.h>
 #include <linux/device.h>
 
-#define NODE	"06_char"
+#define NODE	"03_char"
 
 dev_t device_num;
 struct cdev char_cdev;
@@ -119,4 +119,4 @@ void __exit cleanup_module(void)
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("T Shakthi Pradeep");
-MODULE_DESCRIPTION("06: Char Module");
+MODULE_DESCRIPTION("03: Char Module");

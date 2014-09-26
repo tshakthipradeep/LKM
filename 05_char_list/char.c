@@ -9,7 +9,7 @@
 #include <linux/list.h>
 #include <linux/uaccess.h>
 
-#define NODE	"07_char_list"
+#define NODE	"05_char_list"
 
 dev_t device_num;
 struct cdev char_cdev;
@@ -173,4 +173,4 @@ void __exit cleanup_module(void)
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("T Shakthi Pradeep");
-MODULE_DESCRIPTION("07: Char List Module");
+MODULE_DESCRIPTION("05: Char List Module");

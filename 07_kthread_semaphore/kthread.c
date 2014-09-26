@@ -153,4 +153,4 @@ void __exit cleanup_module(void)
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("T Shakthi Pradeep");
-MODULE_DESCRIPTION("08: Kernel Thread Module");
+MODULE_DESCRIPTION("07: Kernel Thread Module");

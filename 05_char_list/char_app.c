@@ -20,7 +20,7 @@ int main(int argc,char *argv[])
 	int cmd = atoi(argv[1]);
 	int arg = atoi(argv[2]);
 
-	fd = open("/dev/07_char_list",O_RDWR);
+	fd = open("/dev/05_char_list",O_RDWR);
 
 	printf("fd = %d\n",fd);
 

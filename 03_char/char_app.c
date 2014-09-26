@@ -6,7 +6,7 @@ int main(char *argv[],int argc)
 {
 	int fd = 0;
 
-	fd = open("/dev/06_char",O_RDWR);
+	fd = open("/dev/03_char",O_RDWR);
 
 	printf("fd = %d\n",fd);
 

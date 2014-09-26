@@ -122,4 +122,4 @@ void __exit cleanup_module(void)
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("T Shakthi Pradeep");
-MODULE_DESCRIPTION("11: sysfs attrs Module");
+MODULE_DESCRIPTION("09: sysfs attrs Module");

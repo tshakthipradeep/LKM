@@ -97,4 +97,4 @@ void __exit cleanup_module(void)
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("T Shakthi Pradeep");
-MODULE_DESCRIPTION("12: debugfs Module");
+MODULE_DESCRIPTION("10: debugfs Module");
